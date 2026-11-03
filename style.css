@@ -97,7 +97,9 @@ section h2 { font-size: 26px; letter-spacing: -0.01em; margin: 0 0 20px; }
   color: #fff;
   font-weight: 600;
   font-size: 15px;
+  text-decoration: none;
 }
+a.badge:hover { filter: brightness(1.08); }
 
 .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
 .feature { padding: 20px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--border); }
